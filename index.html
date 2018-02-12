@@ -12,9 +12,9 @@
 <script src="http://www.51bbw.cn/showlist/wx/js/animate.js"></script>
 
 <style type="text/css">
-.icon-pause,
-.icon-play { display: inline-block; width: 32px; height: 32px; background: url(http://www.zaiyiqiba.com/mp3/images/icon-music.png); background-size: 32px 32px; }
-
+*{
+	font-family:Arial,Verdana,Sans-serif
+}
 .rotate {
     -webkit-animation: rotating 1.2s linear infinite;
 
@@ -24,6 +24,7 @@
 
     animation: rotating 1.2s linear infinite;
 }
+.page1_heart { background:url(./img/page1_heart.png); width:75px; height:70px; position:absolute; left:600px; top:30px;display:none; -webkit-animation: infinite; vertical-align:middle;}
 
 @-webkit-keyframes rotating {
 
@@ -78,10 +79,6 @@ var h=document.documentElement.clientHeight;//适应所有尺寸浏览器
 
 document.getElementById('page1').style.height=h+"px";
 
-document.getElementById('page2').style.height=h+"px";
-
-document.getElementById('page3').style.height=h+"px";
-
 document.getElementById('page5').style.height=h+"px";
 
 }
@@ -104,15 +101,13 @@ document.getElementById('page5').style.height=h+"px";
 
         <div class="page1_t3"  title=""></div>
 
-        <div class="page1_cxx"  title=""></div>
+        <div class="page1_cxx"  title="" style="font-size:24px;color:white">Haitao</div>
 
-        <div class="page1_cc"  title=""></div>
+        <div class="page1_cc"  title="" style="font-size:24px;color:white">Chenfeng</div>
 
         <div class="page1_heart"  title=""></div>
 
-        <div class="page1_left"  title=""></div>
-
-        <div class="page1_right"></div>
+     
 
         <div class="page1_yun1"></div>
 
@@ -122,25 +117,7 @@ document.getElementById('page5').style.height=h+"px";
 	</div>
     </li>
 
-  	<li class="main2">
-
-        <div class="page2" id="page2">
-
-        <div class="page2_bg"></div>
-
-        </div>
-
-    </li>
-
-	<li class="main3"  >
-
-        <div class="page3" id="page3">
-
-        <div class="page3_bg"></div>
-
-        </div> 
-
-    </li>
+ 
 	
 
 	<li class="main5"  >
