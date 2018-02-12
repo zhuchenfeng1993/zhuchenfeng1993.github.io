@@ -111,11 +111,5 @@ $(function  () {
 					}	
 			        })
 							 
-			//翻页事件page5	
-			.scroll(function  () {
-					if (siz>hi*2+30&&siz<hi*3+30) {$(".page5_bg").addClass("animated bounceInUp").show()}	
-						else {
-                     if (siz!=hi*3) {$(".page5_bg").removeClass("animated bounceInUp").fadeOut(500)}
-						     }
-						             })					 			 			 
+							 			 			 
 })
